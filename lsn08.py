@@ -26,7 +26,7 @@ make_country(Ukraine='Kyiv', Russia='Moscow', France='Paris', Spain='Barcelona')
 # Then return the sum or product of all the numbers in the arbitrary parameter.
 
 def make_operation(*args):
-    operations = ('+', '-', '*', '/')
+    operations = ('+', '-', '*')
     arguments = args
     get_operation = False
     operator = ''
