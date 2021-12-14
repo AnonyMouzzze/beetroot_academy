@@ -75,7 +75,7 @@ class ProductStore:
                     'name': product.name,
                     'price': product.price,
                     'amount': product.amount,
-                    'discount': product
+                    'discount': product.discount
                 }
             )
         return products
