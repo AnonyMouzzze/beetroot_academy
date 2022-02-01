@@ -1,5 +1,5 @@
 def to_power(x: int, exp: int) -> int:
-    if exp <= 0:
+    if exp < 0:
         raise ValueError
     if exp == 1:
         return x
