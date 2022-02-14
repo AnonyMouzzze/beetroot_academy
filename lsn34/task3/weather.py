@@ -11,7 +11,7 @@ BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
 params = {
     "q": {f"{args['city']}"},
-    "appid": "2e53fa1f2d3e9191ec730cd0e44fd06b",
+    "appid": "API_KEY",
     "units": "metric",
 }
 
